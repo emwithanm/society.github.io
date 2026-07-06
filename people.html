@@ -71,19 +71,25 @@
     .people-container .person-info .degree {
         font-size: 0.83rem;
         margin-bottom: 2px;
+        font-style: italic;
     }
 
     .people-container .person-info .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
         font-size: 0.83rem;
         margin-bottom: 2px;
     }
 
     .people-container .person-info a {
-        color: #000;
+        color: #611e7b;
     }
 
-    .people-container .person-info .tags span {
-        display: block;
+    .people-container .person-info .tags .keyword {
+        background-color: #f5f5f5;
+        padding: 4px 10px;
+        border-radius: 0px;
         color: #000;
     }
 
@@ -118,9 +124,13 @@
         .people-container .person-card {
             grid-template-columns: 200px 1fr;
         }
-        
+
         .people-container .person-card .image-container {
             width: 200px;
+        }
+
+        .people-container .person-card .person-info {
+            grid-column: 2;
         }
     }
 
@@ -149,7 +159,7 @@
         }
 
         .people-container .person-info a {
-            color: #000;
+            color: #611e7b;
         }
 
         .people-container .person-info p {
@@ -199,10 +209,13 @@
                     <h3>June Jeon</h3>
                     <p class="degree">Assistant Professor of Sociology, School of Digital Humanities and Computational Social Sciences, KAIST</p>
                     <p class="tags">
-                        <span>Science and Technology Studies, Political Economy of Knowledge, Mixed-Methods, Qualitative Sociology</span>
+                        <span class="keyword">Science and Technology Studies</span>
+                        <span class="keyword">Political Economy of Knowledge</span>
+                        <span class="keyword">Mixed-Methods</span>
+                        <span class="keyword">Qualitative Sociology</span>
                     </p>
                     <p class="tags"><a href="mailto:junejeon@kaist.ac.kr">junejeon@kaist.ac.kr</a></p>
-                    <p class="description">June Jeon is an Assistant Professor of Sociology jointly appointed in the School of Digital Humanities and Computational Social Sciences and the Kim Jaechul Graduate School of AI at KAIST. He earned his Ph.D. in Sociology from the University of Wisconsin-Madison and subsequently served as a Postdoctoral Fellow in Civic Science at Tufts University. Prior to his doctoral studies, he received his B.S. in Chemistry and M.S. in Science & Technology Policy from KAIST. His research encompasses science and technology studies, social theory, and mixed-method approaches. His work has been published in prominent academic journals, including Social Studies of Science, New Media & Society, Technology in Society, and The Sociological Quarterly.</p>
+                    <p class="description">June Jeon is an Assistant Professor of Sociology jointly appointed in the School of Digital Humanities and Computational Social Sciences and the Kim Jaechul Graduate School of AI at KAIST. He earned his Ph.D. in Sociology from the University of Wisconsin-Madison and subsequently served as a Postdoctoral Fellow in Civic Science at Tufts University. Prior to his doctoral studies, he received his B.S. in Chemistry and M.S. in Science & Technology Policy from KAIST. His research encompasses science and technology studies, social theory, and mixed-method approaches. His work has been published in prominent academic journals, including <i>Social Studies of Science</i>, <i>New Media & Society</i>, <i>Technology in Society</i>, and <i>The Sociological Quarterly</i>.</p>
                 </div>
             </div>
         </div>
@@ -217,10 +230,13 @@
                     <h3>Taekho You</h3>
                     <p class="degree">Research Assistant Professor, Center for Digital Humanities & Computational Social Sciences, KAIST</p>
                     <p class="tags">
-                        <span>Complex Network, Science of Science, Data Science, Citation Dynamics</span>
+                        <span class="keyword">Complex Network</span>
+                        <span class="keyword">Science of Science</span>
+                        <span class="keyword">Data Science</span>
+                        <span class="keyword">Citation Dynamics</span>
                     </p>
                     <p class="tags"><a href="mailto:taekho.you@kaist.ac.kr">taekho.you@kaist.ac.kr</a></p>
-                    <p class="description">Taekho You is a Research Assistant Professor in the Center for Digital Humanities & Computational Social Sciences at KAIST. He got his Ph.D. and M.S. in Industrial & Management Engineering from POSTECH. He served as a Postdoctoral Fellow in School of AI Convergence at Soongsil University and a Research Assistant Professor in the Institute for Social Data Science at POSTECH. His research focuses on revealing hidden dynamics in academia and society, using various academic and social data with complex network theory. His research work has been published in multidisciplinary academic journals including Proceedings of the National Academy of Sciences, Humanities and Social Sciences Communications, Journal of Informetrics, and Physical Review E.</p>
+                    <p class="description">Taekho You is a Research Assistant Professor in the Center for Digital Humanities & Computational Social Sciences at KAIST. He got his Ph.D. and M.S. in Industrial & Management Engineering from POSTECH. He served as a Postdoctoral Fellow in School of AI Convergence at Soongsil University and a Research Assistant Professor in the Institute for Social Data Science at POSTECH. His research focuses on revealing hidden dynamics in academia and society, using various academic and social data with complex network theory. His research work has been published in multidisciplinary academic journals including <i>Proceedings of the National Academy of Sciences</i>, <i>Humanities and Social Sciences Communications</i>, <i>Journal of Informetrics</i>, and <i>Physical Review E</i>.</p>
                 </div>
             </div>
 
@@ -232,7 +248,11 @@
                     <h3>Eunrang Kwon</h3>
                     <p class="degree">Post-doctoral Researcher, Center for Digital Humanities & Computational Social Sciences, KAIST</p>
                     <p class="tags">
-                        <span>Online Communication, Computational Social Science, Data Science, Political Sociology, NLP</span>
+                        <span class="keyword">Online Communication</span>
+                        <span class="keyword">Computational Social Science</span>
+                        <span class="keyword">Data Science</span>
+                        <span class="keyword">Political Sociology</span>
+                        <span class="keyword">NLP</span>
                     </p>
                     <p class="tags"><a href="mailto:eunrang_kwon@kaist.ac.kr">eunrang_kwon@kaist.ac.kr</a></p>
                     <p class="description">Eunrang Kwon is a postdoctoral researcher in the School of Digital Humanities and Computational Social Sciences at KAIST. She earned her Ph.D. and M.A. in Sociology from Yonsei University. As a computational sociologist, her research stands at the intersection of political sociology and the science of science, focusing on how technology shapes human interaction and knowledge structures. Her current projects investigate emotional dynamics in online communication through advanced text analysis, as well as the structural inequalities underlying contemporary knowledge production using bibliometric data. Methodologically, she specializes in data science and computational social science approaches, integrating natural language processing (NLP) to analyze complex social data.</p>
@@ -247,7 +267,7 @@
                     <h3>Wooyong Jung</h3>
                     <p class="degree">Placeholder</p>
                     <p class="tags">
-                        <span>Placeholder</span>
+                        <span class="keyword">Placeholder</span>
                     </p>
                     <p class="tags"><a href="mailto:placeholder@kaist.ac.kr">placeholder@kaist.ac.kr</a></p>
                     <p class="description">Placeholder</p>
@@ -265,10 +285,12 @@
                     <h3>Dujin Park</h3>
                     <p class="degree">Researcher, Center for Digital Humanities & Computational Social Sciences, KAIST</p>
                     <p class="tags">
-                        <span>Social inequality, Urban Sociology, Sociological Theory</span>
+                        <span class="keyword">Social inequality</span>
+                        <span class="keyword">Urban Sociology</span>
+                        <span class="keyword">Sociological Theory</span>
                     </p>
                     <p class="tags"><a href="mailto:sociology@kaist.ac.kr">sociology@kaist.ac.kr</a></p>
-                    <p class="description">Dujin Park is a researcher at the Center for Digital Humanities and Computational Social Sciences at KAIST. He holds an M.A. in Sociology and a B.A. in Sociology and Political Science from Chungnam National University. His research examines urban inequality by combining sociological theory with computational social science methods. His current project explores how residential segregation across social classes intersects with spatial mobility to reproduce social inequality over time. His work has appeared in academic journals such as the Korean Journal of Sociology, Survey Research, and Health & Place.</p>
+                    <p class="description">Dujin Park is a researcher at the Center for Digital Humanities and Computational Social Sciences at KAIST. He holds an M.A. in Sociology and a B.A. in Sociology and Political Science from Chungnam National University. His research examines urban inequality by combining sociological theory with computational social science methods. His current project explores how residential segregation across social classes intersects with spatial mobility to reproduce social inequality over time. His work has appeared in academic journals such as the <i>Korean Journal of Sociology</i>, <i>Survey Research</i>, and <i>Health & Place</i>.</p>
                 </div>
             </div>
         </div>
@@ -283,7 +305,7 @@
                     <h3>Seonwoo Ahn</h3>
                     <p class="degree">Placeholder</p>
                     <p class="tags">
-                        <span>Placeholder</span>
+                        <span class="keyword">Placeholder</span>
                     </p>
                     <p class="tags"><a href="mailto:placeholder@kaist.ac.kr">placeholder@kaist.ac.kr</a></p>
                     <p class="description">Placeholder</p>
@@ -298,7 +320,7 @@
                     <h3>Songeun Chae</h3>
                     <p class="degree">Placeholder</p>
                     <p class="tags">
-                        <span>Placeholder</span>
+                        <span class="keyword">Placeholder</span>
                     </p>
                     <p class="tags"><a href="mailto:placeholder@kaist.ac.kr">placeholder@kaist.ac.kr</a></p>
                     <p class="description">Placeholder</p>
@@ -313,7 +335,7 @@
                     <h3>Somin (Grace) Lee</h3>
                     <p class="degree">Placeholder</p>
                     <p class="tags">
-                        <span>Placeholder</span>
+                        <span class="keyword">Placeholder</span>
                     </p>
                     <p class="tags"><a href="mailto:placeholder@kaist.ac.kr">placeholder@kaist.ac.kr</a></p>
                     <p class="description">Placeholder</p>
