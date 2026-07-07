@@ -58,4 +58,4 @@ Our intended domain is `society.kaist.ac.kr` (see `CNAME`), but it is not live y
 
 Please note that until then, the site is only reachable at the default GitHub Pages URL for this repo.
 
-**I would avoid switchinf the internal nav links back to root-relative paths** (e.g. `href="/people"`). They're intentionally relative (`href="people"`) so navigation works correctly both under the default GitHub Pages URL (which includes a repo-name subpath) and once the custom domain goes live at root—root-relative links break under the subpath.
+**I would avoid switching the internal nav links back to root-relative paths** (e.g. `href="/people"`). They're intentionally relative (`href="people"`) so navigation works correctly both under the default GitHub Pages URL (which includes a repo-name subpath) and once the custom domain goes live at root—root-relative links break under the subpath.
