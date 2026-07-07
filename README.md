@@ -1,6 +1,6 @@
 # A Society Lab @ KAIST (ASK): The Website
 
-Welcome to the source for the lab website, currently served via GitHub Pages! This repo started as a fork of [Litlab's website repo](https://github.com/litlabkaist/litlabkaist.github.io), so some structure/conventions carry over from that.
+Welcome to the source for [the lab website](https://emwithanm.github.io/society.github.io/), currently served via GitHub Pages! This repo started as a fork of [Litlab's website repo](https://github.com/litlabkaist/litlabkaist.github.io), so some structure/conventions carry over from that. 
 
 ## Structure
 
@@ -36,10 +36,12 @@ Then, open http://127.0.0.1:4000. `--watch` auto-rebuilds when you save a file, 
 
 **Styling Convention:** The accent purple used throughout (names, links, dates, project/publication titles) is `#611e7b`—feel free to reuse it for new elements, or replace it with a different colour better fitting.
 
-## Still Needs Filling In
+## To-Do
 
-- `people.html`: Some members currently have "Placeholder" text for degree/keywords/email/bio.
-- Everyone's photo is commented out, pending real images.
+- `people.html`: Some members currently have "Placeholder" text for degree/keywords/email/bio, and everyone's photo is commented out, pending real images.
+- `publications.html` and `research.html` are awaiting more information.
+- All logos are placeholders from Google Images, and the favicon is still Litlab's.
+- A tagline on `index.html`, underneath the main heading, would be a nice touch.
 
 ## Deployment
 
